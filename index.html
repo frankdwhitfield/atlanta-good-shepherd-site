@@ -4,149 +4,259 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Atlanta Good Shepherd Church</title>
+  <meta name="description" content="Atlanta Good Shepherd Church — Faith, Community, Service in Atlanta's West End." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <header class="site-header">
     <div class="container header-row">
-      <a class="brand" href="index.html">
+      <a class="brand" href="index.html" aria-label="Go to Atlanta Good Shepherd Church homepage">
         <img src="assets/agscdc-logo.png" alt="Atlanta Good Shepherd logo" class="brand-logo" />
-        <div class="brand-text">
+        <div>
           <div class="brand-title">Atlanta Good Shepherd</div>
-          <div class="brand-subtitle">Church</div>
+          <div class="brand-subtitle">Church • West End Atlanta</div>
         </div>
       </a>
 
-      <nav class="nav">
+      <nav class="nav" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#worship">Worship</a>
         <a href="#events">Events</a>
         <a href="#give">Give</a>
-        <a class="nav-cta" href="agscdc.html">AGSCDC</a>
+        <a class="cta" href="agscdc.html">AGSCDC</a>
       </nav>
     </div>
   </header>
 
   <main>
+
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid">
+
         <div>
-          <h1>Faith, Community, Service.</h1>
+          <div class="kicker">Welcome</div>
+          <h1>Faith that shows up for the neighborhood.</h1>
           <p class="lead">
-            Welcome to Atlanta Good Shepherd Church. Come worship with us, grow with us,
-            and serve with us in the West End.
+            Atlanta Good Shepherd Church is a community rooted in worship, service, and practical love.
+            Join us this Sunday—and explore how we serve through AGSCDC and the Farm.
           </p>
+
           <div class="btn-row">
             <a class="btn primary" href="#worship">Plan Your Visit</a>
-            <a class="btn" href="agscdc.html">Explore Our Community Impact</a>
+            <a class="btn" href="agscdc.html">
+              Explore Community Impact
+              <small>AGSCDC</small>
+            </a>
           </div>
 
-          <div class="quick-cards">
-            <div class="card">
+          <div class="grid three" style="margin-top:18px;">
+            <div class="card feature">
               <h3>Worship Times</h3>
-              <p>Add times + location details here.</p>
+              <p class="small">Add Sunday service time(s) + address.</p>
+              <div class="meta-row">
+                <span class="pill">In-person</span>
+                <span class="pill">Online</span>
+              </div>
             </div>
+
             <div class="card">
-              <h3>Upcoming Events</h3>
-              <p>Highlight the next 1–3 events.</p>
+              <h3>Next Event</h3>
+              <p class="small">Highlight one upcoming event here.</p>
+              <div class="meta-row">
+                <span class="pill">Community</span>
+                <span class="pill">Family-friendly</span>
+              </div>
             </div>
+
             <div class="card">
-              <h3>Get Connected</h3>
-              <p>Small groups, ministries, volunteering.</p>
+              <h3>Serve With Us</h3>
+              <p class="small">Volunteer opportunities + ministry connections.</p>
+              <div class="meta-row">
+                <span class="pill">Volunteer</span>
+                <span class="pill">Mentor</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="hero-panel">
-          <h2>New Here?</h2>
-          <p>
-            Add a short “what to expect” note (parking, kids, attire, etc.).
-          </p>
-          <ul class="checklist">
-            <li>Friendly greeters</li>
-            <li>Family-friendly worship</li>
-            <li>Opportunities to serve</li>
-          </ul>
-          <a class="btn primary" href="#contact">Contact Us</a>
+        <div class="hero-media" style="background-image:url('assets/hero-church.jpg');" role="img" aria-label="Church community gathering">
+          <div class="hero-badge">
+            <div class="badge-title">Come as you are.</div>
+            <div class="badge-sub">
+              Add a one-sentence “what to expect” note (kids, parking, attire, etc.).
+            </div>
+          </div>
         </div>
+
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about" class="section">
       <div class="container">
-        <h2>About Atlanta Good Shepherd</h2>
-        <p>
-          Write a brief church story: mission, values, and your connection to the community.
-          Keep it real and grounded.
-        </p>
+        <div class="grid two">
+          <div class="card">
+            <div class="kicker">Our Story</div>
+            <h2>About Atlanta Good Shepherd</h2>
+            <p class="lead" style="margin-top:0;">
+              Replace this with your 4–6 sentence church story: mission, values, and what you believe
+              your church is called to do in this season.
+            </p>
+            <div class="meta-row">
+              <span class="pill">Worship</span>
+              <span class="pill">Discipleship</span>
+              <span class="pill">Service</span>
+            </div>
+          </div>
+
+          <div class="media-card">
+            <div class="img" style="background-image:url('assets/photo-worship.jpg');" role="img" aria-label="Worship moment"></div>
+            <div class="body">
+              <h3 style="margin:0 0 6px;">A place to grow</h3>
+              <p>
+                Add a short line about small groups, youth, families, and how people can get connected.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- WORSHIP -->
     <section id="worship" class="section alt">
       <div class="container">
-        <h2>Worship</h2>
-        <div class="two-col">
-          <div class="card">
+        <div class="kicker">Worship</div>
+        <h2>Plan your visit</h2>
+
+        <div class="grid two">
+          <div class="card feature">
             <h3>In-Person</h3>
-            <p>Service times, address, parking notes.</p>
+            <p class="small"><strong>Service:</strong> [Time] • [Day]</p>
+            <p class="small"><strong>Address:</strong> [Street Address, Atlanta, GA]</p>
+            <p class="small"><strong>Parking:</strong> Add a quick note.</p>
           </div>
+
           <div class="card">
             <h3>Online</h3>
-            <p>Link to livestream / YouTube / Facebook.</p>
+            <p class="small">Add your livestream link(s): YouTube / Facebook / website.</p>
+            <div class="btn-row">
+              <a class="btn primary" href="#" aria-label="Watch online">Watch Online</a>
+              <a class="btn" href="#contact" aria-label="Ask a question">Ask a question</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- EVENTS -->
     <section id="events" class="section">
       <div class="container">
-        <h2>Events</h2>
-        <p>Add an events list or embed your calendar.</p>
+        <div class="kicker">Calendar</div>
+        <h2>Events & gatherings</h2>
+
+        <div class="grid three">
+          <div class="media-card">
+            <div class="img" style="background-image:url('assets/photo-community.jpg');" role="img" aria-label="Community event"></div>
+            <div class="body">
+              <h3 style="margin:0 0 6px;">Event Title</h3>
+              <p>Add date/time + one sentence.</p>
+            </div>
+          </div>
+
+          <div class="media-card">
+            <div class="img" style="background-image:url('assets/photo-worship.jpg');" role="img" aria-label="Gathering"></div>
+            <div class="body">
+              <h3 style="margin:0 0 6px;">Bible Study / Small Group</h3>
+              <p>Add date/time + how to join.</p>
+            </div>
+          </div>
+
+          <div class="media-card">
+            <div class="img" style="background-image:url('assets/photo-farm.jpg');" role="img" aria-label="Serving at the farm"></div>
+            <div class="body">
+              <h3 style="margin:0 0 6px;">Serve Day</h3>
+              <p>Highlight a volunteer day (church + AGSCDC).</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- GIVE -->
     <section id="give" class="section alt">
       <div class="container">
-        <h2>Give</h2>
-        <p>
-          Add giving links (church giving + AGSCDC giving) with a short note about stewardship.
-        </p>
-        <div class="btn-row">
-          <a class="btn primary" href="#">Give to the Church</a>
-          <a class="btn" href="agscdc.html#donate">Support AGSCDC</a>
+        <div class="grid two">
+          <div class="card feature">
+            <div class="kicker">Stewardship</div>
+            <h2>Give</h2>
+            <p class="lead" style="margin-top:0;">
+              Add a brief giving statement (1–2 sentences). Keep it simple and sincere.
+            </p>
+            <div class="btn-row">
+              <a class="btn primary" href="#">Give to the Church</a>
+              <a class="btn" href="agscdc.html#donate">Support AGSCDC</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Where your giving goes</h3>
+            <ul style="margin:10px 0 0; color: var(--muted); line-height: 1.6;">
+              <li>Ministry and worship</li>
+              <li>Community support</li>
+              <li>Programs through AGSCDC</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="section">
       <div class="container">
-        <h2>Contact</h2>
-        <div class="two-col">
+        <div class="kicker">Contact</div>
+        <h2>Let’s connect</h2>
+
+        <div class="grid two">
           <div class="card">
-            <h3>Reach Us</h3>
-            <p><strong>Address:</strong> Add address</p>
-            <p><strong>Phone:</strong> Add phone</p>
-            <p><strong>Email:</strong> Add email</p>
+            <h3>Reach us</h3>
+            <p class="small"><strong>Address:</strong> [Add address]</p>
+            <p class="small"><strong>Phone:</strong> [Add phone]</p>
+            <p class="small"><strong>Email:</strong> [Add email]</p>
+            <div class="meta-row">
+              <span class="pill">Families welcome</span>
+              <span class="pill">Serving West End</span>
+            </div>
           </div>
+
           <div class="card">
-            <h3>Connect</h3>
-            <p>Add links to social media and a simple contact form embed.</p>
+            <h3>Quick links</h3>
+            <p class="small">Add your social links and/or a simple form embed (Google Form works great).</p>
+            <div class="btn-row">
+              <a class="btn primary" href="#">Contact Form</a>
+              <a class="btn" href="agscdc.html">AGSCDC</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container footer-row">
-      <div>
+      <div class="footer-col">
         <strong>Atlanta Good Shepherd Church</strong>
-        <div class="muted">Serving Atlanta • Building community</div>
+        <div class="small">Faith • Community • Service</div>
       </div>
-      <div class="muted">© <span id="year"></span> All rights reserved.</div>
+
+      <div class="footer-col">
+        <div class="small">© <span id="year"></span> All rights reserved.</div>
+      </div>
     </div>
   </footer>
 
