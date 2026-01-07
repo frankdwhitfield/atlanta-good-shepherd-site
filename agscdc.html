@@ -4,146 +4,232 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>AGSCDC | Atlanta Good Shepherd</title>
+  <meta name="description" content="Atlanta Good Shepherd Community Development Corporation (AGSCDC) — The Farm + Community Development in West End Atlanta." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <header class="site-header">
     <div class="container header-row">
-      <a class="brand" href="index.html">
+      <a class="brand" href="index.html" aria-label="Go to Atlanta Good Shepherd Church homepage">
         <img src="assets/agscdc-logo.png" alt="Atlanta Good Shepherd logo" class="brand-logo" />
-        <div class="brand-text">
-          <div class="brand-title">Atlanta Good Shepherd</div>
-          <div class="brand-subtitle">Church + Community</div>
+        <div>
+          <div class="brand-title">AGSCDC</div>
+          <div class="brand-subtitle">Farm • Community Development • Partnerships</div>
         </div>
       </a>
 
-      <nav class="nav">
+      <nav class="nav" aria-label="AGSCDC navigation">
         <a href="index.html">Church Home</a>
         <a href="#farm">The Farm</a>
         <a href="#cdc">The CDC</a>
-        <a href="#get-involved">Get Involved</a>
+        <a href="#impact">Impact</a>
+        <a class="cta" href="#get-involved">Get Involved</a>
       </nav>
     </div>
   </header>
 
   <main>
+
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid">
+
         <div>
-          <h1>Atlanta Good Shepherd Community Development Corporation</h1>
+          <div class="kicker">Community Impact</div>
+          <h1>Practical love, built into the neighborhood.</h1>
           <p class="lead">
-            AGSCDC supports community well-being through place-based work—connecting
-            people to healthy food, practical resources, and long-term neighborhood investment.
+            The Atlanta Good Shepherd Community Development Corporation (AGSCDC) supports community well-being
+            through food access, education, and development work—powered by volunteers and partners.
           </p>
+
           <div class="btn-row">
             <a class="btn primary" href="#get-involved">Volunteer / Partner</a>
             <a class="btn" href="#donate">Donate</a>
           </div>
-        </div>
 
-        <div class="hero-panel">
-          <h2>Our Focus</h2>
-          <ul class="checklist">
-            <li>Food access + education</li>
-            <li>Community development initiatives</li>
-            <li>Partnerships that strengthen families</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="farm" class="section">
-      <div class="container">
-        <h2>The Farm</h2>
-        <p>
-          Describe your farm: what you grow, who it serves, and what programs happen there.
-          Examples: volunteer days, youth learning, harvest distributions, wellness events.
-        </p>
-
-        <div class="two-col">
-          <div class="card">
-            <h3>Programs</h3>
-            <ul>
-              <li>Nutrition + cooking education (add details)</li>
-              <li>Youth learning / field days (add details)</li>
-              <li>Volunteer workdays (add details)</li>
+          <div class="card feature" style="margin-top:18px;">
+            <h3>What we do</h3>
+            <ul style="margin:10px 0 0; color: var(--muted); line-height: 1.6;">
+              <li>Operate a community farm that supports food access + learning</li>
+              <li>Coordinate community development initiatives and partnerships</li>
+              <li>Create opportunities that strengthen families and stabilize neighborhoods</li>
             </ul>
           </div>
-          <div class="card">
-            <h3>Visit / Volunteer</h3>
-            <p>Add location notes, schedule, and a volunteer signup link.</p>
-            <a class="btn primary" href="#get-involved">Sign Up</a>
+        </div>
+
+        <div class="hero-media" style="background-image:url('assets/hero-farm.jpg');" role="img" aria-label="Farm and community work">
+          <div class="hero-badge">
+            <div class="badge-title">The Farm + The CDC</div>
+            <div class="badge-sub">
+              Use this page to tell the story, show results, and make it easy to volunteer or give.
+            </div>
           </div>
         </div>
+
       </div>
     </section>
 
-    <section id="cdc" class="section alt">
+    <!-- FARM -->
+    <section id="farm" class="section">
       <div class="container">
-        <h2>The CDC</h2>
-        <p>
-          Explain what “CDC” means in your context: a community-based nonprofit that coordinates
-          projects, partnerships, and investments that benefit the neighborhood.
+        <div class="kicker">The Farm</div>
+        <h2>Growing food. Growing people.</h2>
+        <p class="lead">
+          Replace this with your real farm description: where it is, what’s grown, who benefits, and how people can participate.
         </p>
 
-        <div class="card">
-          <h3>Community Development Work</h3>
-          <p>
-            Add your active focus areas (housing initiatives, neighborhood stabilization,
-            workforce development, senior supports, etc.).
-          </p>
-          <p class="muted">
-            If you choose to include the Lawton St. West End site context, your synopsis notes a
-            3-acre parcel at 445 Lawton St SW and a vision for mixed-income, sustainability-forward
-            development. (Use the exact language you’re comfortable publishing.) 
-          </p>
+        <div class="grid three" style="margin-top:14px;">
+          <div class="media-card">
+            <div class="img" style="background-image:url('assets/photo-farm.jpg');" role="img" aria-label="Garden beds"></div>
+            <div class="body">
+              <h3 style="margin:0 0 6px;">Volunteer Workdays</h3>
+              <p>Hands-on support: planting, harvesting, clean-up, and special projects.</p>
+            </div>
+          </div>
+
+          <div class="media-card">
+            <div class="img" style="background-image:url('assets/photo-community.jpg');" role="img" aria-label="Learning and outreach"></div>
+            <div class="body">
+              <h3 style="margin:0 0 6px;">Youth & Family Learning</h3>
+              <p>Nutrition, gardening basics, and community-centered education.</p>
+            </div>
+          </div>
+
+          <div class="media-card">
+            <div class="img" style="background-image:url('assets/photo-farm.jpg');" role="img" aria-label="Harvest"></div>
+            <div class="body">
+              <h3 style="margin:0 0 6px;">Food Access</h3>
+              <p>Harvest distribution, pantry support, and neighbors-helping-neighbors.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="get-involved" class="section">
+    <!-- CDC -->
+    <section id="cdc" class="section alt">
       <div class="container">
-        <h2>Get Involved</h2>
-        <div class="two-col">
-          <div class="card">
-            <h3>Volunteer</h3>
-            <p>Link a Google Form or signup tool.</p>
-            <a class="btn primary" href="#">Volunteer Interest Form</a>
+        <div class="kicker">The CDC</div>
+        <h2>Community development that’s people-first.</h2>
+
+        <div class="grid two" style="margin-top:14px;">
+          <div class="card feature">
+            <h3>How we work</h3>
+            <ul style="margin:10px 0 0; color: var(--muted); line-height: 1.6;">
+              <li>Partner with residents, organizations, and funders</li>
+              <li>Launch projects that meet real needs (not just flashy plans)</li>
+              <li>Measure results and keep the community informed</li>
+            </ul>
           </div>
+
+          <div class="card">
+            <h3>Focus areas</h3>
+            <p class="small">Swap these for your true priorities.</p>
+            <div class="meta-row">
+              <span class="pill">Food security</span>
+              <span class="pill">Housing stability</span>
+              <span class="pill">Workforce pathways</span>
+              <span class="pill">Neighborhood partnerships</span>
+            </div>
+            <p class="small" style="margin-top:10px;">
+              Add a short “what’s next” line: upcoming initiatives, next workday, next community meeting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section id="impact" class="section">
+      <div class="container">
+        <div class="kicker">Impact</div>
+        <h2>Show the receipts (in a humble way).</h2>
+        <p class="lead">
+          Even small numbers beat vague promises. Start with placeholders now and update monthly.
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="num">__</div>
+            <div class="label">Volunteer hours (YTD)</div>
+          </div>
+          <div class="stat">
+            <div class="num">__</div>
+            <div class="label">Households served</div>
+          </div>
+          <div class="stat">
+            <div class="num">__</div>
+            <div class="label">Youth / learners engaged</div>
+          </div>
+        </div>
+
+        <div class="grid two" style="margin-top:14px;">
+          <div class="card">
+            <h3>Partner spotlight</h3>
+            <p class="small">
+              Add 3–6 partner logos later. For now, list partner names (or “Partner opportunities available”).
+            </p>
+          </div>
+          <div class="card feature">
+            <h3>News & updates</h3>
+            <p class="small">
+              Add short updates here (one per month). This alone makes the site feel alive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET INVOLVED -->
+    <section id="get-involved" class="section alt">
+      <div class="container">
+        <div class="kicker">Get Involved</div>
+        <h2>Volunteer, donate, or partner.</h2>
+
+        <div class="grid three" style="margin-top:14px;">
+          <div class="card feature">
+            <h3>Volunteer</h3>
+            <p class="small">Link a Google Form (simple + effective).</p>
+            <div class="btn-row">
+              <a class="btn primary" href="#">Volunteer Interest Form</a>
+            </div>
+          </div>
+
           <div class="card" id="donate">
             <h3>Donate</h3>
-            <p>Add giving links for AGSCDC with a short sentence about what donations support.</p>
-            <a class="btn primary" href="#">Donate to AGSCDC</a>
+            <p class="small">
+              Add a giving link and one sentence about what a donation supports.
+            </p>
+            <div class="btn-row">
+              <a class="btn primary" href="#">Donate to AGSCDC</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Partner</h3>
+            <p class="small">
+              Ideal for sponsors, program collaborators, and in-kind support.
+            </p>
+            <div class="btn-row">
+              <a class="btn" href="mailto:your-email@example.com">Email AGSCDC</a>
+            </div>
           </div>
         </div>
 
-        <div class="card" style="margin-top:16px;">
-          <h3>Partner With Us</h3>
-          <p>
-            Add an email address for partner inquiries and a short description of partnership needs
-            (materials, funding, expertise, programming).
+        <div class="card" style="margin-top:14px;">
+          <h3>Transparency note</h3>
+          <p class="small">
+            Add a one-liner about your governance or fiscal sponsor status if needed, plus a link to your nonprofit/CDC info.
           </p>
-          <a class="btn" href="mailto:your-email@example.com">Email AGSCDC</a>
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-row">
-      <div>
-        <strong>AGSCDC</strong>
-        <div class="muted">Community impact through faith + action</div>
-      </div>
-      <div class="muted">© <span id="year"></span> All rights reserved.</div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+    <div class="cont
