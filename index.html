@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atlanta Good Shepherd Church</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">
+        <img src="assets/agscdc-logo.png" alt="Atlanta Good Shepherd logo" class="brand-logo" />
+        <div class="brand-text">
+          <div class="brand-title">Atlanta Good Shepherd</div>
+          <div class="brand-subtitle">Church</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#worship">Worship</a>
+        <a href="#events">Events</a>
+        <a href="#give">Give</a>
+        <a class="nav-cta" href="agscdc.html">AGSCDC</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Faith, Community, Service.</h1>
+          <p class="lead">
+            Welcome to Atlanta Good Shepherd Church. Come worship with us, grow with us,
+            and serve with us in the West End.
+          </p>
+          <div class="btn-row">
+            <a class="btn primary" href="#worship">Plan Your Visit</a>
+            <a class="btn" href="agscdc.html">Explore Our Community Impact</a>
+          </div>
+
+          <div class="quick-cards">
+            <div class="card">
+              <h3>Worship Times</h3>
+              <p>Add times + location details here.</p>
+            </div>
+            <div class="card">
+              <h3>Upcoming Events</h3>
+              <p>Highlight the next 1–3 events.</p>
+            </div>
+            <div class="card">
+              <h3>Get Connected</h3>
+              <p>Small groups, ministries, volunteering.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <h2>New Here?</h2>
+          <p>
+            Add a short “what to expect” note (parking, kids, attire, etc.).
+          </p>
+          <ul class="checklist">
+            <li>Friendly greeters</li>
+            <li>Family-friendly worship</li>
+            <li>Opportunities to serve</li>
+          </ul>
+          <a class="btn primary" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Atlanta Good Shepherd</h2>
+        <p>
+          Write a brief church story: mission, values, and your connection to the community.
+          Keep it real and grounded.
+        </p>
+      </div>
+    </section>
+
+    <section id="worship" class="section alt">
+      <div class="container">
+        <h2>Worship</h2>
+        <div class="two-col">
+          <div class="card">
+            <h3>In-Person</h3>
+            <p>Service times, address, parking notes.</p>
+          </div>
+          <div class="card">
+            <h3>Online</h3>
+            <p>Link to livestream / YouTube / Facebook.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <div class="container">
+        <h2>Events</h2>
+        <p>Add an events list or embed your calendar.</p>
+      </div>
+    </section>
+
+    <section id="give" class="section alt">
+      <div class="container">
+        <h2>Give</h2>
+        <p>
+          Add giving links (church giving + AGSCDC giving) with a short note about stewardship.
+        </p>
+        <div class="btn-row">
+          <a class="btn primary" href="#">Give to the Church</a>
+          <a class="btn" href="agscdc.html#donate">Support AGSCDC</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="two-col">
+          <div class="card">
+            <h3>Reach Us</h3>
+            <p><strong>Address:</strong> Add address</p>
+            <p><strong>Phone:</strong> Add phone</p>
+            <p><strong>Email:</strong> Add email</p>
+          </div>
+          <div class="card">
+            <h3>Connect</h3>
+            <p>Add links to social media and a simple contact form embed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>
+        <strong>Atlanta Good Shepherd Church</strong>
+        <div class="muted">Serving Atlanta • Building community</div>
+      </div>
+      <div class="muted">© <span id="year"></span> All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AGSCDC | Atlanta Good Shepherd</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">
+        <img src="assets/agscdc-logo.png" alt="Atlanta Good Shepherd logo" class="brand-logo" />
+        <div class="brand-text">
+          <div class="brand-title">Atlanta Good Shepherd</div>
+          <div class="brand-subtitle">Church + Community</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Church Home</a>
+        <a href="#farm">The Farm</a>
+        <a href="#cdc">The CDC</a>
+        <a href="#get-involved">Get Involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Atlanta Good Shepherd Community Development Corporation</h1>
+          <p class="lead">
+            AGSCDC supports community well-being through place-based work—connecting
+            people to healthy food, practical resources, and long-term neighborhood investment.
+          </p>
+          <div class="btn-row">
+            <a class="btn primary" href="#get-involved">Volunteer / Partner</a>
+            <a class="btn" href="#donate">Donate</a>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <h2>Our Focus</h2>
+          <ul class="checklist">
+            <li>Food access + education</li>
+            <li>Community development initiatives</li>
+            <li>Partnerships that strengthen families</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="farm" class="section">
+      <div class="container">
+        <h2>The Farm</h2>
+        <p>
+          Describe your farm: what you grow, who it serves, and what programs happen there.
+          Examples: volunteer days, youth learning, harvest distributions, wellness events.
+        </p>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>Programs</h3>
+            <ul>
+              <li>Nutrition + cooking education (add details)</li>
+              <li>Youth learning / field days (add details)</li>
+              <li>Volunteer workdays (add details)</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Visit / Volunteer</h3>
+            <p>Add location notes, schedule, and a volunteer signup link.</p>
+            <a class="btn primary" href="#get-involved">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cdc" class="section alt">
+      <div class="container">
+        <h2>The CDC</h2>
+        <p>
+          Explain what “CDC” means in your context: a community-based nonprofit that coordinates
+          projects, partnerships, and investments that benefit the neighborhood.
+        </p>
+
+        <div class="card">
+          <h3>Community Development Work</h3>
+          <p>
+            Add your active focus areas (housing initiatives, neighborhood stabilization,
+            workforce development, senior supports, etc.).
+          </p>
+          <p class="muted">
+            If you choose to include the Lawton St. West End site context, your synopsis notes a
+            3-acre parcel at 445 Lawton St SW and a vision for mixed-income, sustainability-forward
+            development. (Use the exact language you’re comfortable publishing.) 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="get-involved" class="section">
+      <div class="container">
+        <h2>Get Involved</h2>
+        <div class="two-col">
+          <div class="card">
+            <h3>Volunteer</h3>
+            <p>Link a Google Form or signup tool.</p>
+            <a class="btn primary" href="#">Volunteer Interest Form</a>
+          </div>
+          <div class="card" id="donate">
+            <h3>Donate</h3>
+            <p>Add giving links for AGSCDC with a short sentence about what donations support.</p>
+            <a class="btn primary" href="#">Donate to AGSCDC</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px;">
+          <h3>Partner With Us</h3>
+          <p>
+            Add an email address for partner inquiries and a short description of partnership needs
+            (materials, funding, expertise, programming).
+          </p>
+          <a class="btn" href="mailto:your-email@example.com">Email AGSCDC</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>
+        <strong>AGSCDC</strong>
+        <div class="muted">Community impact through faith + action</div>
+      </div>
+      <div class="muted">© <span id="year"></span> All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
